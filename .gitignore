@@ -2,4 +2,4 @@
 __pycache__/
 *.pt
 .ipynb_checkpoints/
-*.pdf
+# *.pdf  <-- Removed to allow result PDFs
