@@ -1,0 +1,48 @@
+{
+  "privfed_tcn": {
+    "param_count": 78090,
+    "model_size_kb": 305.0390625,
+    "comm_mb_per_round": 1.191558837890625,
+    "final_accuracy": 0.99,
+    "final_f1": 0.99,
+    "per_round_accuracy": [
+      0.5,
+      0.99
+    ],
+    "per_round_comm_mb": [
+      1.191558837890625,
+      1.191558837890625
+    ]
+  },
+  "fl_lstm": {
+    "param_count": 228554,
+    "model_size_kb": 892.7890625,
+    "comm_mb_per_round": 3.487457275390625,
+    "final_accuracy": 0.27881536819637137,
+    "final_f1": 0.174470254381682,
+    "per_round_accuracy": [
+      0.27881536819637137
+    ],
+    "per_round_comm_mb": [
+      3.487457275390625
+    ],
+    "per_round_time_sec": [
+      3.3761562999570742
+    ]
+  },
+  "comm_reduction_pct": 65.83301976775729,
+  "n_rounds": 1,
+  "n_classes": 10,
+  "class_names": [
+    "normal",
+    "ddos",
+    "dos",
+    "scanning",
+    "backdoor",
+    "injection",
+    "xss",
+    "password",
+    "mitm",
+    "ransomware"
+  ]
+}
