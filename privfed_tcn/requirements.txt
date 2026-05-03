@@ -1,0 +1,13 @@
+torch>=2.0.0
+torchvision
+numpy
+pandas
+scikit-learn
+flwr>=1.5.0
+shap
+matplotlib>=3.7
+tqdm>=4.65
+seaborn
+scipy
+opacus
+pycryptodome
